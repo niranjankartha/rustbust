@@ -1,0 +1,15 @@
+[package]
+name = "rustbust"
+version = "0.1.0"
+authors = ["EvilRobotOverlord"]
+edition = "2018"
+description = "Fast & robust URL fuzzer that uses parallel requests"
+repository = "https://github.com/EvilRobotOverlord/rustbust"
+readme = "README.md"
+keywords = ["fuzzer", "fuzz"]
+categories = ["command-line-utilities"]
+license = "Unlicense"
+
+[dependencies]
+reqwest = "0.9.17"
+clap = "2.33.0"
